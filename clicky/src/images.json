@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/j3Y44k6/bag.png"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/hgT8FxY/bike.png"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/bPbK3cL/flowers.png"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/bKkqmjr/globe.png"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/74mJCsx/luggage.png"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/M9KbstK/outfit.png"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/ydPc7h6/poke.png"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/NtM4mvY/scooter.png"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/L0d2YB4/shell.png"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/X2FppQr/sunnies.png"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/FVkzM2W/swimsuit.png"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/tcB5rYR/wine.png"
+    }
+]
