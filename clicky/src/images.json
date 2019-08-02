@@ -1,50 +1,62 @@
 [
     {
         "id": 1,
-        "image": "https://i.ibb.co/j3Y44k6/bag.png"
+        "src": "https://i.ibb.co/nDrtMCr/bag.png",
+        "name": "bag"
     },
     {
         "id": 2,
-        "image": "https://i.ibb.co/hgT8FxY/bike.png"
+        "src": "https://i.ibb.co/W3qDLPz/bike.png",
+        "name": "bike"
     },
     {
         "id": 3,
-        "image": "https://i.ibb.co/bPbK3cL/flowers.png"
+        "src": "https://i.ibb.co/7v0XLjB/flowers.png",
+        "name": "flowers"
     },
     {
         "id": 4,
-        "image": "https://i.ibb.co/bKkqmjr/globe.png"
+        "src": "https://i.ibb.co/WWtXg4k/globe.png",
+        "name": "globe"
     },
     {
         "id": 5,
-        "image": "https://i.ibb.co/74mJCsx/luggage.png"
+        "src": "https://i.ibb.co/QmDBYqW/luggage.png",
+        "name": "luggage"
     },
     {
         "id": 6,
-        "image": "https://i.ibb.co/M9KbstK/outfit.png"
+        "src": "https://i.ibb.co/CtssnTW/outfit.png",
+        "name": "outfit"
     },
     {
         "id": 7,
-        "image": "https://i.ibb.co/ydPc7h6/poke.png"
+        "src": "https://i.ibb.co/fQBJL05/poke.png",
+        "name": "poke"
     },
     {
         "id": 8,
-        "image": "https://i.ibb.co/NtM4mvY/scooter.png"
+        "src": "https://i.ibb.co/7CzQsCj/scooter.png",
+        "name": "scooter"
     },
     {
         "id": 9,
-        "image": "https://i.ibb.co/L0d2YB4/shell.png"
+        "src": "https://i.ibb.co/020HZ6L/shell.png",
+        "name": "shell"
     },
     {
         "id": 10,
-        "image": "https://i.ibb.co/X2FppQr/sunnies.png"
+        "src": "https://i.ibb.co/ysfMyD6/sunnies.png",
+        "name": "sunnies"
     },
     {
         "id": 11,
-        "image": "https://i.ibb.co/FVkzM2W/swimsuit.png"
+        "src": "https://i.ibb.co/Nm8Xnsr/swimsuit.png",
+        "name": "swimsuit"
     },
     {
         "id": 12,
-        "image": "https://i.ibb.co/tcB5rYR/wine.png"
+        "src": "https://i.ibb.co/T1n3MHP/wine.png",
+        "name": "wine"
     }
 ]
