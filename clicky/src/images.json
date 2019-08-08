@@ -2,61 +2,73 @@
     {
         "id": 1,
         "src": "https://i.ibb.co/nDrtMCr/bag.png",
-        "name": "bag"
+        "name": "bag",
+        "clicked": false
     },
     {
         "id": 2,
         "src": "https://i.ibb.co/W3qDLPz/bike.png",
-        "name": "bike"
+        "name": "bike",
+        "clicked": false
     },
     {
         "id": 3,
         "src": "https://i.ibb.co/7v0XLjB/flowers.png",
-        "name": "flowers"
+        "name": "flowers",
+        "clicked": false
     },
     {
         "id": 4,
         "src": "https://i.ibb.co/WWtXg4k/globe.png",
-        "name": "globe"
+        "name": "globe",
+        "clicked": false
     },
     {
         "id": 5,
         "src": "https://i.ibb.co/QmDBYqW/luggage.png",
-        "name": "luggage"
+        "name": "luggage",
+        "clicked": false
     },
     {
         "id": 6,
         "src": "https://i.ibb.co/CtssnTW/outfit.png",
-        "name": "outfit"
+        "name": "outfit",
+        "clicked": false
     },
     {
         "id": 7,
         "src": "https://i.ibb.co/fQBJL05/poke.png",
-        "name": "poke"
+        "name": "poke",
+        "clicked": false
     },
     {
         "id": 8,
         "src": "https://i.ibb.co/7CzQsCj/scooter.png",
-        "name": "scooter"
+        "name": "scooter",
+        "clicked": false
     },
     {
         "id": 9,
         "src": "https://i.ibb.co/020HZ6L/shell.png",
-        "name": "shell"
+        "name": "shell",
+        "clicked": false
     },
     {
         "id": 10,
         "src": "https://i.ibb.co/ysfMyD6/sunnies.png",
-        "name": "sunnies"
+        "name": "sunnies",
+        "clicked": false
     },
     {
         "id": 11,
         "src": "https://i.ibb.co/Nm8Xnsr/swimsuit.png",
-        "name": "swimsuit"
+        "name": "swimsuit",
+        "clicked": false
     },
     {
         "id": 12,
         "src": "https://i.ibb.co/T1n3MHP/wine.png",
-        "name": "wine"
+        "name": "wine",
+        "clicked": false
     }
 ]

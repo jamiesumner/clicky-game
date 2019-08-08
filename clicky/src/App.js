@@ -7,11 +7,12 @@ class App extends Component {
     state = {
         currentScore: 0,
         topScore: 0,
-        currentImages: images
+        clicked: [],
+        images
     }
 
     // shuffle from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-    shuffle = (array) => {
+    shuffle = array => {
         let currentIndex = array.length, temporaryValue, randomIndex;
 
         // While there remain elements to shuffle...
@@ -30,17 +31,29 @@ class App extends Component {
         return array;
     }
 
-    handleClick = (id) => {
-        const selectedImage = this.state.currentImages.filter(image => image.id === id);
+    handleClick = id => {
+        if (this.state.clicked === []) {
+            this.setState({ clicked: images })
+        }
 
-        if (selectedImage.length !== 0) {
-            this.setState({ currentImages: this.state.currentImages.filter(image => image.id !== id) });
-            this.setState({ currentScore: this.state.currentScore + 1 });
+        if (this.state.clicked.includes(id)) {
+            console.log(id);
+            this.setState({ currentScore: 0 });
+            this.setState({ clicked: [] });
+            alert("You've already clicked this! You lose.");
         } else {
-            this.setState({ currentScore: 0, currentImages: images })
-            if (this.state.currentScore > this.state.topScore) {
-                this.setState({ topScore: this.state.currentScore });
-            }
+            this.setState({ currentScore: this.state.currentScore + 1 });
+            this.state.clicked.push(id)
+        }
+
+        if (this.state.currentScore >= this.state.topScore) {
+            this.setState({ topScore: this.state.currentScore });
+        }
+
+        if (this.state.currentScore === 12) {
+            this.setState({ currentScore: 0 });
+            this.setState({ clicked: [] });
+            alert("You win!");
         }
 
         this.shuffle(images);
@@ -68,14 +81,14 @@ class App extends Component {
                 </div>
                 <div className="image-container">
                     <div className="row">
-                        {images.map(image =>
-                            <Images
+                        {images.map(image => (
+                            < Images
                                 handleClick={this.handleClick}
-                                name={image.name}
+                                // alt={image.name}
                                 src={image.src}
-                                key={image.id}
+                                id={image.id}
                             />
-                        )}
+                        ))}
                     </div>
                 </div>
             </div>
